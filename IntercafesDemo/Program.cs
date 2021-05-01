@@ -28,15 +28,15 @@ namespace IntercafesDemo
     }
     interface IWorker
     {
-        public void Work();
+        void Work();
     }
     interface IEat
     {
-        public void Eat();
+        void Eat();
     }
     interface ISalary
     {
-        public void GetSalary();
+        void GetSalary();
     }
     class Manager : IWorker, IEat, ISalary
     {
